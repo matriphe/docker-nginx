@@ -1,5 +1,5 @@
 FROM debian:wheezy
-MAINTAINER NGINX Muhammad Zamroni "halo@matriphe.com"
+MAINTAINER Muhammad Zamroni "halo@matriphe.com"
 
 RUN apt-key adv --keyserver pgp.mit.edu --recv-keys 573BFD6B3D8FBC641079A6ABABF5BD827BD9BF62
 RUN echo "deb http://nginx.org/packages/mainline/debian/ wheezy nginx" >> /etc/apt/sources.list
